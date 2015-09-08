@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<header>
+		<title>Topbar Block</title>
+		<description></description>
+		<module>
+	 	 	<title>About</title>
+	 	 	<field>
+	 	 		<name>widget_about</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<div class="about pull-right">
+		 	 			<span><i class="fa fa-envelope"></i>Email: </span>info@minimo.com
+		 	 			<span><i class="fa fa-phone"></i>Phone: </span>0123 456 789
+		 	 		</div>
+	 	 		]]></default>
+	 		</field>
+	 	</module>
+	</header>
+	<footer>
+		<title>Footer Bottom Block</title>
+		<description></description>
+	 	<module>
+	 	 	<title>Logo</title>
+	 	 	<field>
+	 	 		<name>widget_logo</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<img alt="logo" src="image/catalog/logo-footer.png">	 	 			
+					<p class="space-top-30">	 	 				
+					Duis sed odio sit amet nibh vulputate a ed non mauris vitae erat consequat auctor eu torquent per conubia nostra, justo. Nullam ac urna eu felis dapibus amet a augue. 
+					</p>
+					<img alt="papal" src="image/catalog/payment.png">
+	 	 		]]></default>
+	 		</field>
+	 	</module>
+
+	 	<module>
+	 	 	<title>Contact</title>
+	 	 	<field>
+	 	 		<name>widget_contact</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<div class="panel">
+			            <div class="panel-heading"><h6 class="panel-title">contact info</h6></div>
+			            <div class="panel-body">
+				           <address>
+							  <p>
+							  	Duis sed odio sit amet nibh vulputate a Morbi accumsan ipsum velit. 
+							  </p>
+							   <p>
+							  	123 Sky Tower address name, Los Algeles, USA, Country, 01234
+							  </p>
+							  <p>
+							  	(000) 123 456 7890.<br><a href="mailto:#">info@company.com</a>
+							  </p>							  
+							</address>
+			            </div>
+		          	</div>
+	 	 		]]></default>
+	 		</field>
+	 	</module>
+	 	<module>
+	 	 	<title>Social</title>
+	 	 	<field>
+	 	 		<name>widget_social</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<div class="panel">	
+	 	 				<div class="panel-heading"><h6 class="panel-title">Support</h6></div>
+						<div class="panel-body">		
+							<ul class="list-unstyled bo-social-icons">
+							<li><a href=""><span class="bo-social-outline radius-x"><i class="fa fa-facebook"></i></span><span>facebook</span></a></li>
+							<li><a href=""><span class="bo-social-outline radius-x"><i class="fa fa-twitter"></i></span><span>twitter</span></a></li>
+							<li><a href=""><span class="bo-social-outline radius-x"><i class="fa fa-google-plus"></i></span><span>google+</span></a></li>
+							<li><a href=""><span class="bo-social-outline radius-x"><i class="fa fa-linkedin"></i></span><span>linkedin</span></a></li>
+							<li><a href=""><span class="bo-social-outline radius-x"><i class="fa fa-weibo"></i></span><span>weibo</span></a></li>
+							</ul>
+						</div>
+					</div>
+	 	 		]]></default>
+	 		</field>
+	 	</module>	
+	</footer>	
+</theme>
+

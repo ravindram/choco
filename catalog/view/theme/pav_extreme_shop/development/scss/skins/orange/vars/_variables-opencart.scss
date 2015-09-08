@@ -1,0 +1,22 @@
+/* $font-family-gotham:   "gotham_regular", sans-serif !default; */
+// Iconography
+// -------------------------
+$icon-font-path:          "../../fonts/";
+$theme-font-path:          "../../fonts/";
+
+// Image
+// -------------------------
+$image-theme-path:'../../image/orange/';
+$image-theme-path-base:  '../../image/'!default;
+
+$orange:                #e7ce04;
+$theme-color           : $orange; 
+$topbar-bg             : transparent;
+$topbar-color          :#fff;
+$megamenu-link-color   :#fff;
+$border-color          :#e9ecf5;
+$search-icon-color     :#fff;
+/* 
+$font-family-base :$font-family-gotham;
+$font-family      :$font-family-gotham;
+$headings-font-family:$font-family-gotham; */

@@ -1,0 +1,58 @@
+
+#header-layout{
+    top: 0;
+}
+#topbar .welcome a{
+    color: $white;
+}
+.pav-megamenu .navbar-nav > li > a{
+    color: $white;
+    font-weight: 600;
+}
+
+#header-layout .inside{
+  background: rgba(41,39,51,0.9);
+}
+.latest-posts-v2{
+    .latest-posts-title a{
+        color: $black;
+        font-size: 16px;
+    }    
+    .latest-posts-profile{
+        color: $orange;
+    }
+}
+.new , .hot{
+    display: block !important;
+}
+.product-block .name{
+    line-height: 20px;
+    font-size: $font-size-base + 2;
+    font-weight: 200;
+}
+.search-focus{
+    border-color:rgba(233,236,245,0.5);
+}
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+    .pav-megamenu .navbar-nav > li > a{
+        font-size: 12px;
+        padding: 10px 13px;
+    }
+}
+@media (max-width: $screen-md-max){
+    .slide{
+        .iview-caption.width-100{
+            width: auto !important;
+        }
+        .iview-caption.tp-caption:nth-child(1){
+            left: 370px !important;
+        }
+    }
+}
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max){
+     .slide{
+        .iview-caption.tp-caption:nth-child(1){
+            left: 100px !important;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+/* #logo-theme {
+    a{
+        background: url('#{$image-theme-path}logo.png') no-repeat;
+    }
+}
+#header-layout {
+	&.header-v2 {
+		#logo-theme {
+            a{
+                background: url('#{$image-theme-path}logo-header2.png') no-repeat;
+            }
+        }
+	}
+}
+.footer-top {    
+    .inner {
+        background: url("#{$image-theme-path}bg-footer-top.jpg") no-repeat;
+    }
+} */
+body{
+    background:url("#{$image-theme-path}bg-body.jpg") repeat;
+}
+
+#header-layout{
+    top:0;
+    #topbar{
+        background:#f0f0f0;
+        @include box-shadow(0 0 5px 0 rgba(0, 0, 0, 0.3));
+        .container .inside{
+            background:transparent;
+        }
+    }
+    .search-focus{
+        border-color:#afafaf;
+    }
+}
+.pav-megamenu .navbar-nav > li > a{
+    font-weight: 700;
+}
+.panel-v2 .panel-title{
+    color: $black;
+}
+.product-block{
+    .price{
+        font-weight: 600;
+    }
+    .rating{
+        display: none;
+    }
+    .name{
+        font-weight: 700;
+    }
+    &.product-v2{
+        .name a{
+            color: $black;
+        }
+        .price .price-new{
+            color: $red;
+        }
+    }
+}
+.producttabs{
+    .product-block .action button{
+        padding:10px 15px;
+    }
+}
+.latest-posts-v1{
+    .latest-posts-profile{
+        border-color:rgba(63, 64, 64, 0.18);
+    }
+    .posts-meta a{
+        color: $black;
+        font-weight: 600;
+    }
+}
+
+
+.panel{
+    background:transparent;
+}
+#footer .panel-title,.bo-social-icons .bo-social-outline{
+    color: $white;
+    border-color: #32302a;
+}
+.btn-outline-success{
+    border-color:$red;
+    color: $red;
+}
+.category,.sidebar .products-block,.pavblogs-comments-box .panel-body,.refine-search .panel-body{
+    background:$white;
+}
+.iview-caption .btn-outline-success{
+    border-color:$white;
+    color: $white;
+    &:hover,&:active,&:focus{
+        border-color:transparent;
+    }
+}
+body[class*="page-product-"]{
+    #content h2,#content h1{
+        color: $black;
+    }
+}
