@@ -45,3 +45,6 @@
     margin: 0 auto;
     top: 37%;
 }
+.modal-open{
+    margin-right:inherit; 
+}
