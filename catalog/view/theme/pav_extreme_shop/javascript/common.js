@@ -1,6 +1,7 @@
 
 // offcanvas menu 
-$(document).ready(function () {
+$(document).ready(function () {  
+  $('#searchModal').modal('show');
   $('#loader-theme').hide();
   // Language
   $('.language a').on('click', function(e) {

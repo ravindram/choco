@@ -50,7 +50,9 @@ $helper->addCss( 'catalog/view/javascript/font-awesome/css/font-awesome.min.css'
 
 if( file_exists(DIR_TEMPLATE.$themeName.'/stylesheet/animate.css') ) {
     $helper->addCss( 'catalog/view/theme/'.$themeName.'/stylesheet/animate.css'  );
+
 }
+$helper->addCss( 'catalog/view/theme/pav_extreme_shop/stylesheet/mani.css'  );
 
 $helper->addCss('catalog/view/javascript/jquery/magnific/magnific-popup.css');
 $helper->addCss('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
