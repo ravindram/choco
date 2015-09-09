@@ -1,7 +1,7 @@
 
 // offcanvas menu 
 $(document).ready(function () {
-
+  $('#loader-theme').hide();
   // Language
   $('.language a').on('click', function(e) {
     e.preventDefault();
