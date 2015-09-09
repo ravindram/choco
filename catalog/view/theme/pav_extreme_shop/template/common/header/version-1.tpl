@@ -10,7 +10,10 @@
 ?>
 
 <header id="header-layout">
-
+<div  id="loader-theme" class="logo-store">
+  <a class="img-responsive"></a>
+  <p class="pull-center text-center">page is loaging...</p>
+</div>
 <nav id="topbar">
   <div class="container">
     <div class="inside">
