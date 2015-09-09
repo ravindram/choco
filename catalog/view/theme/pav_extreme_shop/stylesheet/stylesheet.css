@@ -9545,3 +9545,20 @@ body .owl-carousel {
     font-size: 12px;
   }
 }
+
+#loader-theme a {
+  background: url("../image/orange/loader.gif") no-repeat;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 22% 0 0 47%;
+}
+#loader-theme p {
+    color: #fff;
+    margin-bottom: 33%;
+    font-family: 'robotoregular';
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+}
+
